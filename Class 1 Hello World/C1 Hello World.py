@@ -3,7 +3,7 @@ import cv2
 
 print('Hello World.')
 # 读取一张图片
-img = cv2.imread("IMG_8257.JPG", 1)
+img = cv2.imread('Kobayashi.JPG', 1)
 # 显示一张图片
 cv2.imshow('Image', img)
 # 等待
