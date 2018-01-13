@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0)
 
 # 用循环不断获取当前帧 处理后显示出来
 while True:
-	if cap.isOpened():
+    if cap.isOpened():
 #       捕获当前帧
         ret,frame = cap.read()
 #       显示图像
@@ -14,7 +14,7 @@ while True:
 
 #   结束帧捕获的条件
 #   等待100ms 即帧频为10fps
-	if cv2.waitKey(100) & 0xFF is ord('q'):
+    if cv2.waitKey(100) & 0xFF is ord('q'):
         break
 
 # 释放资源
