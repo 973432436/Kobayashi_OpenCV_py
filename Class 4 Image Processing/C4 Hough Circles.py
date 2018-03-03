@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('E:\\OpenCV\\py_version\\demo\\venv\\Picture\\logo2.jpg')
+img = cv2.imread('logo2.jpg')
 grayImg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 circle = cv2.HoughCircles(grayImg, cv2.HOUGH_GRADIENT, 1, 50)

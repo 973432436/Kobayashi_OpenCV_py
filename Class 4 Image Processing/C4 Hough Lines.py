@@ -16,7 +16,7 @@ def drawfindLines_Hough(img, lines, P = 0):
             cv2.line(img, (x1, y1), (x2, y2), (0, 0, 255), 1)
             print('rho = ' + str(rho) + '  theta = ' + str(theta)+'  ('+str(x0)+','+str(y0)+')')
 
-img = cv2.imread('E:\\OpenCV\\py_version\\demo\\venv\\Picture\\Road1.jpg')
+img = cv2.imread('Road1.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 edges = cv2.Canny(gray, 50, 150, apertureSize = 3)
 
