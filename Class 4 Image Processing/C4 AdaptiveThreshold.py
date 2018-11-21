@@ -4,7 +4,7 @@ import numpy as np
 def threshBar(x):
 	pass
 
-img = cv2.imread('E:\\OpenCV\\py_version\\demo\\venv\\Picture\\IMG_8881.jpg')
+img = cv2.imread('IMG_8881.jpg')
 grayImg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # 适当缩小窗口
