@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('E:\\OpenCV\\py_version\\demo\\venv\\Picture\\Mavic Air Fly.jpeg')
+img = cv2.imread('Mavic Air Fly.jpeg')
 grayImg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # 创建一个CenSurE检测器 这是论文中推荐的检测器
