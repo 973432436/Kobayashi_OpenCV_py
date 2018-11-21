@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('E:\\OpenCV\\py_version\\demo\\venv\\Picture\\Mavic Air Fly.jpeg')
+img = cv2.imread('Mavic Air Fly.jpeg')
 grayImg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 surf = cv2.xfeatures2d.SURF_create(400, upright=True)
