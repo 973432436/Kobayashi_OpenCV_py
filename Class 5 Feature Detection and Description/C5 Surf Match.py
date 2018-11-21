@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-img1 = cv2.imread('E:\\OpenCV\\py_version\\demo\\venv\\Picture\\Mavic Air Fly.jpeg')
-img2 = cv2.imread('E:\\OpenCV\\py_version\\demo\\venv\\Picture\\Mavic Air Fly yuntai Erected.jpeg')
+img1 = cv2.imread('Mavic Air Fly.jpeg')
+img2 = cv2.imread('Mavic Air Fly yuntai Erected.jpeg')
 grayImg1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 grayImg2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
 matchImg = np.zeros_like(img1)
